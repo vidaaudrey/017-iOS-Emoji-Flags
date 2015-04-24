@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="C6G-JX-B2g">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--iOS Emoji Flags-->
+        <scene sceneID="qp3-fm-fCd">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="ysp-h5-VFu" customClass="FlagViewController" customModule="CountryIDPhotosTableView2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rv0-jA-tbq"/>
+                        <viewControllerLayoutGuide type="bottom" id="oYQ-oY-nvG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Haz-DW-g4z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Yut-Ca-dll">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hXN-oI-FrU">
+                                    <size key="itemSize" width="129" height="115"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="kWZ-JN-xf0" customClass="CollectionViewCell" customModule="CountryIDPhotosTableView2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="129" height="115"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nnV-cb-AZp">
+                                                    <rect key="frame" x="8" y="77" width="113" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qRu-0n-47o">
+                                                    <rect key="frame" x="8" y="8" width="113" height="69"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="60"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="0.14117647707462311" green="0.78039216995239258" blue="0.35294118523597717" alpha="0.12" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="qRu-0n-47o" firstAttribute="leading" secondItem="kWZ-JN-xf0" secondAttribute="leadingMargin" id="0Wp-Qr-I8n"/>
+                                            <constraint firstItem="qRu-0n-47o" firstAttribute="trailing" secondItem="kWZ-JN-xf0" secondAttribute="trailingMargin" id="GjL-yA-9sq"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="nnV-cb-AZp" secondAttribute="trailing" id="IjM-g3-zZD"/>
+                                            <constraint firstItem="nnV-cb-AZp" firstAttribute="bottom" secondItem="kWZ-JN-xf0" secondAttribute="bottomMargin" id="Lej-tS-g1k"/>
+                                            <constraint firstItem="qRu-0n-47o" firstAttribute="top" secondItem="kWZ-JN-xf0" secondAttribute="topMargin" id="dUH-56-Bbf"/>
+                                            <constraint firstItem="nnV-cb-AZp" firstAttribute="leading" secondItem="kWZ-JN-xf0" secondAttribute="leadingMargin" id="dhN-W2-61m"/>
+                                            <constraint firstItem="nnV-cb-AZp" firstAttribute="top" secondItem="qRu-0n-47o" secondAttribute="bottom" id="mbu-eB-irq"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="flagTextLabel" destination="qRu-0n-47o" id="cV2-LC-P1E"/>
+                                            <outlet property="textLabel" destination="nnV-cb-AZp" id="iZG-5f-1BB"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oYQ-oY-nvG" firstAttribute="top" secondItem="Yut-Ca-dll" secondAttribute="bottom" id="Exg-xc-VXV"/>
+                            <constraint firstItem="Yut-Ca-dll" firstAttribute="top" secondItem="rv0-jA-tbq" secondAttribute="bottom" id="Fjv-9r-6nS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yut-Ca-dll" secondAttribute="trailing" constant="-16" id="KCi-v7-aZB"/>
+                            <constraint firstItem="Yut-Ca-dll" firstAttribute="leading" secondItem="Haz-DW-g4z" secondAttribute="leadingMargin" constant="-16" id="VQo-qN-DR9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS Emoji Flags" id="TVY-fx-lUD"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Yut-Ca-dll" id="oW4-UC-A6e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Db-IF-nr3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2022" y="526"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EYL-Yg-eaD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C6G-JX-B2g" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0aT-Vb-zl6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ysp-h5-VFu" kind="relationship" relationship="rootViewController" id="Qc2-eO-X54"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VcL-Tl-qL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1210" y="526"/>
+        </scene>
+    </scenes>
+</document>
