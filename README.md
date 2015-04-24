@@ -4,4 +4,4 @@
 
 
 
-![Swift Snapshot](https://github.com/vidaaudrey/015-Swift-Myers-Briggs-Test/blob/master/_snapshort/snapshot.gif)
+![Swift Snapshot](https://github.com/vidaaudrey/017-iOS-Emoji-Flags/blob/master/_snapshot/snapshot.png)
