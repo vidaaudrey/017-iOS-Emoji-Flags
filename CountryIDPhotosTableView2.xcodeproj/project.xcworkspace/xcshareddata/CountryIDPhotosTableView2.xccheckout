@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CC68D11-B8C7-474D-AF0C-849A68F0EC00</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CountryIDPhotosTableView2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E9E3F76E29F9BED6755BFE4AB2F23D6D2AD78EF</key>
+		<string>https://github.com/vidaaudrey/017-iOS-Emoji-Flags.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CountryIDPhotosTableView2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E9E3F76E29F9BED6755BFE4AB2F23D6D2AD78EF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vidaaudrey/017-iOS-Emoji-Flags.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E9E3F76E29F9BED6755BFE4AB2F23D6D2AD78EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E9E3F76E29F9BED6755BFE4AB2F23D6D2AD78EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>017-iOS-Emoji-Flags</string>
+		</dict>
+	</array>
+</dict>
+</plist>
